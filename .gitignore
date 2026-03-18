@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+
+# Arquivos gerados automaticamente
+grafico_brl.png
+grafico_usd.png
+
+# Arquivos de saída do modelo (regenerados pelo crawler + regressão)
+cotacao_milho.xlsx
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
